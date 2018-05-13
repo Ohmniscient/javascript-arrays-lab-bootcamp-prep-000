@@ -13,11 +13,11 @@ function destructivelyRemoveLastKitten(name, array) {
 }
 
 function appendKitten(name, array) {
-  var moreCats = ["...kittens", "Broom"];
+   moreCats = ["...kittens", "Broom"];
 }
 
 function prependKitten(name, array) {
-  var EvenMoreCats = ["Arnold", "...kittens"];
+ EvenMoreCats = ["Arnold", "...kittens"];
 }
 
 function destructivelyRemoveFirstKitten(name, array) {
