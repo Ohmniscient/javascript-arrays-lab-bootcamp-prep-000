@@ -12,10 +12,15 @@ function destructivelyRemoveLastKitten(name, array) {
   kittens.pop()
 }
 
-function appendKitten(name, array) {
+function appendKitten(name) {
   const moreCats = ["...kittens", "Broom"];
 }
 
-function prependKitten(name, array) {
+function prependKitten(name) {
   const EvenMoreCats = ["Arnold", "...kittens"];
 }
+
+function destructivelyRemoveFirstKitten(name, array) {
+  kittens.shift()
+}
+
