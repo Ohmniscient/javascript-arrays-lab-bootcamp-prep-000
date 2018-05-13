@@ -23,4 +23,3 @@ function prependKitten(name) {
 function destructivelyRemoveFirstKitten(name, array) {
   kittens.shift()
 }
-
