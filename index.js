@@ -8,19 +8,19 @@ function destructivelyPrependKitten(name, array) {
   kittens.unshift("Bob")
 }
 
-function destructivelyRemoveLastKitten(name, array) {
+function destructivelyRemoveLastKitten() {
   kittens.pop()
 }
 
-function appendKitten(name, array) {
+function appendKitten(name) {
   return [...kittens, "Broom"];
 }
 
-function prependKitten(name, array) {
+function prependKitten(name) {
   return ["Arnold", ...kittens];
 }
 
-function destructivelyRemoveFirstKitten(name, array) {
+function destructivelyRemoveFirstKitten() {
   kittens.shift()
 }
 
