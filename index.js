@@ -12,11 +12,11 @@ function destructivelyRemoveLastKitten(name, array) {
   kittens.pop()
 }
 
-function appendKitten(name) {
+function appendKitten(name, array) {
   var moreCats = ["...kittens", "Broom"];
 }
 
-function prependKitten(name) {
+function prependKitten(name, array) {
   var EvenMoreCats = ["Arnold", "...kittens"];
 }
 
